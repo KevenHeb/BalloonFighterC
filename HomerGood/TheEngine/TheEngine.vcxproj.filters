@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{de8906fc-b350-4475-83a4-af2ed8d669f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{d1befc50-d4ee-408c-af16-45dfe79c71f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sources\Engine.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlInput.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\ConsoleLogger.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FileLogger.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Color.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlAudio.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\SdlGraphics.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\World.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Component.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Entity.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Atlas.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Animation.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Sprite.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Collision.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Tilemap.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\Engine.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IInput.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlInput.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ILogger.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\FileLogger.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ConsoleLogger.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\EKey.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IGraphics.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\RectI.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\RectF.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Color.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Flip.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IAudio.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlAudio.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\SdlGraphics.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Entity.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\World.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IScene.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IWorld.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IDrawable.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\IUpdatable.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Component.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Sprite.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Animation.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Atlas.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Clip.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\ICollision.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Collision.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Tilemap.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Observer.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Subject.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
